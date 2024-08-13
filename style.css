@@ -1,0 +1,58 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(83, 118, 136);
+}
+
+.card{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 1px 1px 30px;
+    background-color: rgb(228, 240, 252);
+    font-weight: bold;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card .content{
+    margin: 0px 50px 30px 50px;
+}
+
+h2{
+    margin-bottom: 30px;
+}
+
+.card .boxes{
+    margin: 25px;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+button{
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 10px;
+    color: rgb(83, 118, 136);
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    cursor: pointer;
+    opacity: 50%;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+button:hover{
+    transition: 0.3s;
+    opacity: 100%;
+}
+
+button:active{
+    background-color: rgb(219, 219, 219);
+}
